@@ -1,0 +1,84 @@
+System : System Tester
+System : System Version: Microsoft Windows NT 10.0.26200.0
+System : Operating System: Windows x64
+System : AssetRipper Version: 1.0.5.0
+System : AssetRipper Build Type: Release Compiled
+System : UTC Current Time: Fri Aug 28 07:54:25 UTC 2026
+System : UTC Compile Time: Unknown
+
+General : Configuration Settings:
+General : ScriptContentLevel: Level2
+General : StreamingAssetsMode: Extract
+General : DefaultVersion: 0.0.0a0
+General : ExportRootPath: C:\Users\mybll\MarionetteBossEventAssets\Library\PackageCache\com.nomnom.lc-project-patcher@5b004691fc\Editor\Libs\AssetRipper~\Ripped
+General : BundledAssetsExportMode: DirectExport
+General : AudioExportFormat: Default
+General : ImageExportFormat: Png
+General : MeshExportFormat: Native
+General : ScriptExportMode: Decompiled
+General : ScriptLanguageVersion: AutoSafe
+General : ShaderExportMode: Dummy
+General : SpriteExportMode: Yaml
+General : TerrainExportMode: Yaml
+General : TextExportMode: Parse
+General : EnablePrefabOutlining: False
+Import : Attempting to read files from D:/Steam/steamapps/common/Lethal Company/Lethal Company_Data
+Import : PC data directory found. Setting root to parent directory
+Import : PC game structure has been found at 'D:/Steam/steamapps/common/Lethal Company/Lethal Company_Data'
+Import : Collecting game files...
+Import : Game file 'globalgamemanagers' has been found
+Import : Game file 'level0' has been found
+Import : Game file 'level1' has been found
+Import : Game file 'level10' has been found
+Import : Game file 'level11' has been found
+Import : Game file 'level12' has been found
+Import : Game file 'level13' has been found
+Import : Game file 'level14' has been found
+Import : Game file 'level15' has been found
+Import : Game file 'level16' has been found
+Import : Game file 'level17' has been found
+Import : Game file 'level18' has been found
+Import : Game file 'level2' has been found
+Import : Game file 'level3' has been found
+Import : Game file 'level4' has been found
+Import : Game file 'level5' has been found
+Import : Game file 'level6' has been found
+Import : Game file 'level7' has been found
+Import : Game file 'level8' has been found
+Import : Game file 'level9' has been found
+Import : Collecting Streaming Assets...
+Import : Files use the 'Mono' scripting backend.
+Import : During Mono initialization, found 167 assemblies
+[Error] : Read 196 but expected 200 for asset type Terrain. V: 2022.3.62f2 P: StandaloneWin64Player N: level9 Path: 
+[Error] : Read 196 but expected 200 for asset type Terrain. V: 2022.3.62f2 P: StandaloneWin64Player N: level6 Path: 
+[Error] : Read 196 but expected 200 for asset type Terrain. V: 2022.3.62f2 P: StandaloneWin64Player N: level16 Path: 
+[Error] : Read 196 but expected 200 for asset type Terrain. V: 2022.3.62f2 P: StandaloneWin64Player N: level15 Path: 
+[Error] : Read 196 but expected 200 for asset type Terrain. V: 2022.3.62f2 P: StandaloneWin64Player N: level14 Path: 
+[Error] : Read 196 but expected 200 for asset type Terrain. V: 2022.3.62f2 P: StandaloneWin64Player N: level13 Path: 
+Import [Error] : Error during reading of asset type PlayerSettings. V: 2022.3.62f2 P: StandaloneWin64Player N: globalgamemanagers Path: 
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'length')
+   at AssetRipper.IO.Endian.EndianSpanReader.ReadInt32() in C:\Users\nomno\Documents\Github\AssetRipper\Source\AssetRipper.IO.Endian\EndianSpanReader.g.cs:line 39
+   at AssetRipper.SourceGenerated.Helpers.ReadReleaseMethods.ReadRelease_ArrayAlign_Int32(AssetList`1 value, EndianSpanReader& reader)
+   at AssetRipper.SourceGenerated.Classes.ClassID_129.PlayerSettings_2022_3_17.ReadRelease(EndianSpanReader& reader)
+   at AssetRipper.Assets.UnityAssetBaseExtensions.Read(IUnityAssetBase asset, EndianSpanReader& reader, TransferInstructionFlags flags) in C:\Users\nomno\Documents\Github\AssetRipper\Source\AssetRipper.Assets\IUnityAssetBase.cs:line 40
+   at AssetRipper.Assets.UnityObjectBaseExtensions.Read(IUnityObjectBase asset, EndianSpanReader& reader) in C:\Users\nomno\Documents\Github\AssetRipper\Source\AssetRipper.Assets\IUnityObjectBase.cs:line 74
+   at AssetRipper.Import.AssetCreation.GameAssetFactory.ReadNormalObject(IUnityObjectBase asset, ReadOnlyArraySegment`1 assetData) in C:\Users\nomno\Documents\Github\AssetRipper\Source\AssetRipper.Import\AssetCreation\GameAssetFactory.cs:line 120
+
+[Error] : Read 268 but expected 272 for asset type PhysicsManager. V: 2022.3.62f2 P: StandaloneWin64Player N: globalgamemanagers Path: 
+Import [Error] : Error during reading of asset type BuildSettings. V: 2022.3.62f2 P: StandaloneWin64Player N: globalgamemanagers Path: 
+System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'length')
+   at AssetRipper.IO.Endian.EndianSpanReader.ReadInt32() in C:\Users\nomno\Documents\Github\AssetRipper\Source\AssetRipper.IO.Endian\EndianSpanReader.g.cs:line 39
+   at AssetRipper.SourceGenerated.Helpers.ReadReleaseMethods.ReadRelease_ArrayAlign_Int32(AssetList`1 value, EndianSpanReader& reader)
+   at AssetRipper.SourceGenerated.Classes.ClassID_141.BuildSettings_2022_2_2.ReadRelease(EndianSpanReader& reader)
+   at AssetRipper.Assets.UnityAssetBaseExtensions.Read(IUnityAssetBase asset, EndianSpanReader& reader, TransferInstructionFlags flags) in C:\Users\nomno\Documents\Github\AssetRipper\Source\AssetRipper.Assets\IUnityAssetBase.cs:line 40
+   at AssetRipper.Assets.UnityObjectBaseExtensions.Read(IUnityObjectBase asset, EndianSpanReader& reader) in C:\Users\nomno\Documents\Github\AssetRipper\Source\AssetRipper.Assets\IUnityObjectBase.cs:line 74
+   at AssetRipper.Import.AssetCreation.GameAssetFactory.ReadNormalObject(IUnityObjectBase asset, ReadOnlyArraySegment`1 assetData) in C:\Users\nomno\Documents\Github\AssetRipper\Source\AssetRipper.Import\AssetCreation\GameAssetFactory.cs:line 120
+
+Import : Finished reading files
+Processing : Processing loaded assets...
+Processing : Creating Scene Definitions
+Processing : Main Asset Pairing
+Processing : Lighting Data Assets
+Processing : Reconstruct AnimatorController Assets
+Processing : Reconstruct AudioMixer Assets
+Processing : Editor Format Conversion
